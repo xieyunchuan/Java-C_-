@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 函数 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\华硕.000\AppData\Local\Temp\RSPC0BC.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/函数.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"E:\java_C数据结构\Java-C_-\7\函数\main.cpp"
+]
+Creating command line "cl.exe @"C:\Users\华硕.000\AppData\Local\Temp\RSPC0BC.tmp"" 
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+E:\java_C数据结构\Java-C_-\7\函数\main.cpp(5) : error C2065: 'show' : undeclared identifier
+E:\java_C数据结构\Java-C_-\7\函数\main.cpp(7) : warning C4508: 'main' : function should return a value; 'void' return type assumed
+E:\java_C数据结构\Java-C_-\7\函数\main.cpp(9) : error C2373: 'show' : redefinition; different type modifiers
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+main.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
