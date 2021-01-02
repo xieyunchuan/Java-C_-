@@ -4,7 +4,7 @@ public class ThreadLocalTest {
     public static void main(String[] args) {
         ThreadLocal<String> threadLocal=new ThreadLocal<String>();
         ThreadA threadA=new ThreadA(threadLocal,"A");
-        ThreadA threadB=new ThreadA(threadLocal,"B");
+        ThreadA threadB=new ThreadA(threadLocal,"PersonCompartor");
         threadA.run();
         threadB.run();
     }

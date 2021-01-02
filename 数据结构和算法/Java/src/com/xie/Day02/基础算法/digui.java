@@ -3,8 +3,8 @@ package com.xie.Day02.基础算法;
 import java.io.*;
 
 /**
- * A B C
- * D E F  = A * E F + B * D F + C * D E
+ * A PersonCompartor C
+ * D E F  = A * E F + PersonCompartor * D F + C * D E
  * G H I        H I       G I       G H
  * 函数的出口是2阶行列式
  */
